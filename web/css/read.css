@@ -1,0 +1,119 @@
+
+.mid{
+    margin-top: 3%;
+}
+.content{
+    width: 90%;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+}
+img{
+    width: 270px;
+    height: 350px;
+}
+.content-book{
+    margin-left: 50px;
+    /* text-align: center; */
+}
+#book-thumb-content{
+    text-align: center;
+}
+#book-thumb{
+    box-shadow: 0 5px 15px #193047;
+}
+#book-info{
+    width: 50%;
+    height: auto;
+}
+.book-list{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#img-booklist{
+    margin: 10px 5px 20px 0px;
+    width:90px ;
+    height: 130px;
+    box-shadow: 0 5px 10px #193047;
+}
+#content-booklist{
+    margin: 20px 0 0 10px;
+    width: 150px;
+}
+/* Rating */
+
+.rating {
+    
+    width: 226px;
+    font-size: 45px;
+    overflow:hidden;
+}
+
+.rating a {
+    float:right;
+    color: #aaa;
+    text-decoration: none;
+    -webkit-transition: color .4s;
+    -moz-transition: color .4s;
+    -o-transition: color .4s;
+    transition: color .4s;
+}
+
+
+.rating a:hover,
+.rating a:hover ~ a,
+.rating a:focus,
+.rating a:focus ~ a		{
+    color: orange;
+    cursor: pointer;
+}
+/*  */
+/* Button read */
+.button {
+margin-top: 20px; 
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 4px;
+  position: relative;
+  background-color: #16a085;
+  border: none;
+  color: #fff;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  box-shadow: 0 5px 15px #193047;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #1abc9c;
+  color: #000;
+}
+
+.button:after {
+  content: "";
+  background: #1abc9c;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.button:focus { outline:0; }

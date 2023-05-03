@@ -1,0 +1,110 @@
+.container-fluid{
+  width: 90%;
+  margin-top: 40px;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+}
+.col{
+    margin-top: 20px;
+}
+
+#img{
+    width: 270px;
+    height: 350px;
+}
+.cardbody-content{
+  height: 90px;
+}
+/* style button */
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');*/
+.body-button{
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+.multi-button {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 14px;
+    padding: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+      place-items: center;
+  }
+  
+  #read {
+    background-color: rgb(85,131,241);
+    border: 1px solid rgb(85,131,241);
+    
+  }
+  
+  #save {
+    background-color:yellow;
+    border: 1px solid yellow;
+  }
+  
+  .button { 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 15px 0 rgba(0, 0, 0, 0.09);
+    padding: 10px 17px 10px 17px;
+    font: 15px Ubuntu;
+    color: white;
+    border-radius: 7px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  #read span:after {
+    font-family: FontAwesome;
+    content: "\f5da";
+  }
+  #save span:after {
+    font-family: FontAwesome;
+    content: "\f02e";
+  }
+  
+  /*  */
+
+  .center {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
